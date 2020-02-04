@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Extra-Curriculars!</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="extra_c.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+ <header>
+  <nav>
+    <div class="topnav">
+       <a href="index.html">Home</a> 
+       <a href="about_me.html">About Me</a> 
+       <a href="projects.html">Projects</a> 
+       <a href="extra_c.html">Hobbies & Activities</a> 
+    </div>
+  </nav>
+ </header>
+
+<main>
+
+<section>
+  <h1>Astronomy and Space Physics Society, Punjab Engineering College</h1>
+  <br />
+  <p>Through this technical society, I had the chance to organize events, participate in competitions and even meet an Astronaut! Serving as the secretary of the society for the 2018-19 academic session was a challenging but rewarding experience.</p>
+</section>
+<br />
+<section>
+  <h1>English Editorial Board, Punjab Engineering College</h1>
+  <br />
+  <p>I enjoy creative writing and being a member of the board gave me an extra push to put pen to paper. Here’s one of my <a href="https://www.facebook.com/engEdBoard/photos/a.830293690512391/990703134471445/?type=3&eid=ARDUqryj22lbKiMhF0W9M0RV0ySuXITplwiTlE9LZ6Z0PjWeeDo6f0tC5Ih8FoFTao84vteO9xYRlXqr&__xts__%5B0%5D=68.ARBSYeGXTlTnIosirdhqtNwq3ZUhjddWUqQTIxOAfPrFLaaTOqo2KubycPqySr5Pm3HEVY7Q-S_Lu9MHk77fVfWuXLCpc-k7X76wzghTgXfadPRyVTGm8eJXZOhyDS2t4ByO_0yHE39gRIED6ufTVemAttl5mTARcvgs6mlE0z5JW9y9IG5ORXq8h-PX42l7oLIX2vwg8T2OocTwORkCh2NLfNqV1KQEYOXy7FQcQaudUXEroZ81mcLgcw8XZIC8eHPXjBwSxiupJK0_iUuunGXAkCNbZ9f4n-YxgRMx7dEQSrJJlY_EF1IN8pdBQJriWVTwE4MFufHitRnX6958fcA&__tn__=EHH-R">articles</a> even though it’s terribly dated. </p>
+</section>
+<br />
+<section>
+  <h1>Karate</h1>
+  <br />
+  <p>I received my black belt from the Oriental Karate and Kobudo Club, Abu Dhabi (a full split is probably a thing of the past though).</p>
+</section>
+ 
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="lake.jpg" style="width:100%">
+    <div class="text">Lake Michigan</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="flight.jpg" style="width:100% ">
+    <div class="text">Blue Skies</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="HK.jpg" style="width:100%">
+    <div class="text">Hong Kong!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="rainyday.jpg" style="width:100%">
+    <div class="text">A Rainy Day</div>
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="con">
+<p>Thanks for visiting the page. Here's some of my amateur photography</p>
+</div>
+</main>
+
+<footer>
+  <div class="Footer_left" style="color:white;">
+      <p style="display:inline-block;"><i class="fa fa-envelope" style="font-size:12px">&nbsp;</i>rgeorgi@purdue.edu</p>
+  </div>
+<div class="Footer_center" style="color:white;">
+      <p style="display:inline-block;"><i class="fa fa-mobile-phone" style="font-size:18px">&nbsp;</i>+1 (650) 5056322</p>
+  </div>
+<div class="Footer_right" style="color:white;">
+      <p style="display:inline-block;">Coded in HTML,CSS & Javascript</p>
+  </div>
+
+
+</footer>
+
+
+</p>
+</body>
+</html>
