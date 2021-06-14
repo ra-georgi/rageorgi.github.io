@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head> 
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/bgs.css">
+    <link rel="stylesheet" href="styles/tablet_resp.css">
+    <link rel="stylesheet" href="styles/desktop_resp.css">  
+    <link rel="stylesheet" href="styles/desktop_lscape.css">
+    <link rel="stylesheet" href="styles/lphone_resp.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c2f6938bb6.js" crossorigin="anonymous"></script>
+    <script src="scripts/navbar.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page of Reuben Georgi</title>   <!-- Reuben's Personal Webpage-->
+    <style></style>
+    <script src="scripts/modals.js"></script>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+
+
+  </head>
+
+
+
+
+  <body>
+
+    <header id="HOME">  
+
+
+      <nav class="navbar">         <!-- Add smoothscroll-->
+        <ul>
+          <li> <a href="#HOME">HOME</a>  </li>
+          <li> <a href="#ABOUT">ABOUT</a> </li>
+          <li> <a href="#PROJECTS">PROJECTS</a> </li>
+          <!--    <li> <a href="#EDUCATION">EDUCATION</a>  </li>   -->
+          <li> <a href="#ACTIVITIES">ACTIVITIES</a>  </li>     <!-- Add contact section?-->
+          <li> <a href="#CONTACT">CONTACT</a>  </li>
+        </ul>
+
+      </nav>
+
+      <!-- Might have to adjust all the vh and vw values-->
+
+      <div class="HOME-text">
+        <h1>Reuben Georgi</h1> 
+        <h2>Student | Engineer | <del>Front-End Developer</del> </h2>  <!-- Student, Engineer,Professional Worrier, Website designer/front end developer apparently --> 
+        <ul>
+          <li><a href="https://www.linkedin.com/in/rageorgi/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/rageorgi" target="_blank" title="See my work on GitHub"><i class="fab fa-github"></i> </a></li>
+          <li><a href="mailto:reuben.abraham97@gmail.com" title="Email Contact"> <i class="fas fa-envelope"></i></a></li>
+        </ul>
+      </div>
+
+     <!-- Add bootstrap icons credits, picture credits-->
+
+
+    </header>
+
+    <section id="ABOUT">
+
+      <h1>Hi! Thanks for stopping by</h1>
+
+      <div class="descrip">
+        <div class="DP">
+
+          <div class="DP-image"><img src="images/profile.jpg" alt="Profile Picture"></div>
+          <div class="DP-link"><a href="Resume.pdf" target="_blank">View Resume</a></div>
+
+        </div>
+
+        <div class="DES">
+            <h2> About Me </h2>
+            <div class="DES-text">
+              <p>
+                I recently graduated from Purdue University with a master’s in Aeronautics and Astronautics and majored in Autonomy and Control. Earlier, I had completed my undergraduate studies in Aerospace Engineering at Punjab Engineering College.
+                <br>  <!-- Which email to use?-->
+                <br>
+                I am currently seeking full-time engineering positions which involve Control Systems, Robotics, and/or Autonomous Systems. If interested, please contact me at <a href="mailto:rgeorgi@purdue.edu" title="Email Contact" >reuben.abraham97@gmail.com</a> or <a href="mailto:rgeorgi@purdue.edu" title="Email Contact" >rgeorgi@purdue.edu</a>.
+              </p>
+            </div>
+        </div>
+
+
+
+      </div>
+
+
+
+
+    </section>
+
+
+    <section id="PROJECTS">
+
+      <h1>PROJECTS</h1>
+      <h3><i>Some of my Work</i></h3>
+
+
+
+      <div class="PROJECTS-GRID">
+
+        <div class="projects ocontainer">
+          <a href="javascript:void(0);" onclick="only1()"><img src="images/only1.jpg" alt="Flytron Poster" >
+          <div class="overlay">
+             <div class="otext">Flytron Poster</div>
+          </div> 
+          </a>
+
+        </div>
+        
+        <div class="projects">
+          <a href="javascript:void(0);" onclick="poster()"><img src="images/poster.jpg" alt="Mission Planning Poster">
+          <div class="overlay">
+              <div class="otext">Mission Planning</div>
+            </div> </a>
+        </div>
+        
+        <div class="projects">
+          <a href="javascript:void(0);" onclick="ts()"><img src="images/ts.jpg" alt="Thrust Stand" >
+          <div class="overlay">
+              <div class="otext">Thrust Measurement Stand</div>
+          </div> </a>
+        </div>
+        
+        <div class="projects">
+          <a href="javascript:void(0);" onclick="ga()"><img src="images/ga.jpg" alt="Path Planning: GA" >
+          <div class="overlay">
+            <div class="otext"> GA Path Planning</div>
+        </div> </a>
+        </div>
+
+        <div class="projects">
+          <a href="javascript:void(0);" onclick="reach()"><img src="images/reach.jpg" alt="Reachability Analysis">
+          <div class="overlay">
+            <div class="otext">Reachability Analysis</div>
+        </div> </a>
+        </div>
+
+        <div class="projects">
+          <a href="javascript:void(0);" onclick="flight()"><img src="images/webpage.png" alt="Home Page Picture">
+          <div class="overlay">
+            <div class="otext">Personal Webpage</div>
+        </div> </a>
+        </div>
+
+      </div>
+
+
+
+      <div id="only1" class="modal">
+        <div class="modal-content">
+          <div class="pics">
+            <img src="images/only1.jpg" alt="Flytron Poster">
+          </div> 
+          <div class="text">
+            <h2>UAV Concept</h2>
+            <ul>
+              <li>Submission for the <a href="https://pec.ac.in/events/flytron-uav-design-and-flying-competition" target="_blank">Flytron UAV design poster competition</a> organized by the Aeronautical Society of India in association with Punjab Engineering College</li>
+              <li>Won 2nd place for the design of a modular and standardized drone concept</li>
+            </ul>
+            <span class="close">&times;</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="poster" class="modal">
+        <div class="modal-content">
+          <div class="pics">
+            <img src="images/poster.jpg" alt="Mission Planning Poster" > 
+          </div>
+          <div class="text">
+            <h2>Preliminary Mission Planning to Ceres</h2>
+            <ul>
+              <li>Utilized Lambert's problem to consider potential 2021-2022 transfer trajectories to Ceres from Earth </li>
+              <li>Generated Porkchop plots to display contours of characteristic energy (C3) for combinations of launch and arrival dates in considered time period</li>
+            </ul>
+            <span class="close">&times;</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="ts" class="modal">
+        <div class="modal-content">
+          <div class="pics">
+            <img src="images/ts.jpg" alt="Thrust Stand" >
+         </div>
+          <div class="text">
+            <h2>Experimental means to measure propeller flow parameters</h2>
+            <ul>
+              <li>Group project to calculate the properties of flow involving a propeller by making use of momentum theory  </li>
+              <li>Experimental setup utilized load cells and a tachometer; container for the setup was manufactured using Aluminum sheets</li>
+            </ul>
+            <span class="close">&times;</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="ga" class="modal">
+        <div class="modal-content">
+          <div class="pics">
+            <img src="images/ga.jpg" alt="Path Planning: GA" >
+          </div>
+          <div class="text">
+            <h2>Genetic Algorithm Based Approach for Path Planning in a Static Environment</h2>
+            <ul>
+              <li>Utilized a point-based approach to generate the shortest collision free path for an agent</li>
+              <li>Examined the effects of varying the type of crossover operation on the solution</li>
+            </ul>
+            <span class="close">&times;</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="reach" class="modal">
+        <div class="modal-content">
+          <div class="pics">
+            <img src="images/reach.jpg" alt="Reachability Analysis" >
+          </div>
+          <div class="text">
+            <h2>Reachability Analysis for Pursuer-Evader Dynamic Games</h2>
+            <ul>
+              <li>2 person project, computed backward reachable sets for dynamic games involving a superior evader using the Level Set Toolbox on MATLAB</li>
+              <li>Investigated the impact of the number of pursuers and their speed ratio on the backwards reachable set</li>
+            </ul>
+            <span class="close">&times;</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="flight" class="modal">
+        <div class="modal-content">
+          <div class="pics">
+            <img src="images/webpage.png" alt="Home Page Picture" >
+          </div>
+          <div class="text">
+            <h2>Personal Webpage</h2>
+            <ul>
+              <li>Coded from scratch using HTML, CSS & JavaScript</li>
+              <li>Took a lot longer than I thought it would</li>
+            </ul>
+            <span class="close">&times;</span>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </section>
+
+    <section id="ACTIVITIES">
+
+      <div class="header">
+        <h1>HOBBIES & ACTIVITIES</h1>
+        <h3><i>Brief Overview</i></h3>
+      </div>
+
+
+      <div class="content">
+        <div class="col">
+          <div class="colcontent">
+            <h2>Astronomy and Space Physics Society (ASPS)</h2>
+            <h3> <i>Secretary/Head (2018/19) , Member</i> &middot; Punjab Engineering College </h3>
+            <ul>
+              <li>Coordinated and conducted club meetings, events and projects as Secretary</li>
+              <li>Member of team which competed in the AAS CanSat competitions from 2017-2019</li>
+              <!--
+              <li>Organized events, participated in competitions and took introductory lectures</li>
+              <li> <a href="">   <b>CANSAT Team 2017/18</b> </a>  </li>  -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="colcontent">
+          <h2 class="hlink"><a href="https://www.purduearc.com/members/" target="_blank">Autonomous Robotics Club (ARC)</a></h2>
+          <h3> <i>Member</i> &middot; Purdue University </h3>
+          <ul>
+            <li>Currently working on the <a href="https://www.purduearc.com/projects/rocketleague/" target="_blank"><b>Rocket League</b></a> Project</li>
+            <li>Utilizing DRL techniques to design High Level Planner</li>
+          </ul>
+         </div>
+
+        </div>
+
+
+        <div class="col">
+          <div class="colcontent">
+          <h2>English Editorial Board (EEB)</h2>
+          <h3> <i>Member</i> &middot; Punjab Engineering College </h3>
+          <ul>
+            <!-- <li>Organized events, wrote for the Vista and contributed to PECPosts</li>  -->
+            <li>Organized events and contributed to club publications such as the RagMag and the Vista</li>
+            <li> <a href="https://www.facebook.com/engEdBoard/photos/a.830293690512391/990703134471445/?type=3&theater" target="_blank">  <b> A Personal Favorite Article </b> </a></li>
+          </ul>
+        </div>
+
+        </div>
+        
+        <div class="col">
+          <div class="colcontent">
+          <h2>Oriental Karate and Kobudo Club</h2>
+          <h3> <i>Student</i> &middot; Abu Dhabi </h3>
+          <ul>
+            <li>Earned a Black Belt (a full split is a thing of the past though)</li>
+            <li><a href=""> <b> Receiving my Brown Belt (Picture coming soon) </b></a> </li>
+          </ul>
+        </div>
+        </div>      
+
+      </div>
+
+      <div class="footer" id="CONTACT">
+        <h4>Get in Touch</h4>
+
+        <div class="col2">
+          <h5>Email</h5>
+            <i class="fas fa-envelope" class="icon"></i>
+            <ul>
+              <li>rgeorgi@purdue.edu (School)</li>
+              <li>reuben.abraham97@gmail.com (Personal)</li>
+            </ul>
+        </div>
+
+        <div class="col2">
+          <h5>Connect</h5>
+            <i class="fab fa-linkedin"></i>
+            <ul>
+              <li><a href="https://www.linkedin.com/in/rageorgi/" target="_blank">LinkedIn Profile</a></li>
+            </ul>
+        </div>
+
+        <div class="col2" id="callfoot">
+          <h5>Call</h5>
+          <i class="fas fa-phone"></i>
+            <ul>
+              <li>(650)-505-6322</li>
+            </ul>
+        </div>
+
+
+
+        <p class="lastfooter">Coded using HTML, CSS & JavaScript</p>
+      </div>
+
+
+
+
+
+
+    </section>
+
+
+
+  
+  
+
+  
+ 
+  
+  
+  </body>
+
+</html>
+
+
+
+<!-- 
+  Top menu can be made using List
+  Iframes could be useful when displaying projects
+  <meta name="author" content="John Doe"> ?
+  <meta name="description" content="Free Web tutorials">
+  Validate HTML With The W3C Validator
+  Responsive?
+  Would a form be useful anywhere? Maybe rate a project? Suggestion for website?
+  Input Type Color, to change color of something?
+  Server-Sent Events (SSE)?
+-->
