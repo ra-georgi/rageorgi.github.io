@@ -1,0 +1,52 @@
+header {
+    height: 100vh;
+    min-height: 500px;
+    width: 100%;
+    background-image: url(../images/flight.jpg); /* The image used */
+    background-color: black; /* Used if the image is unavailable */
+     /* height: 500px; You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+  }
+
+
+
+
+#ABOUT {
+  height: 100vh;
+  min-height: 500px;
+  width: 100%;
+   /*  background-image: url(../images/clouds.jpg); /*   The image used */
+  background-color: #c0cad8; /* Used if the image is unavailable */
+   /* height: 500px; You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#PROJECTS {
+  height: 210vh;
+  min-height: 500px;
+  width: 100%;
+   /*  background-image: url(../images/clouds.jpg); /*   The image used */
+  background-color: white; /* Used if the image is unavailable */
+   /* height: 500px; You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+#ACTIVITIES {
+  height: 140vh;
+  min-height: 500px;
+  width: 100%;
+   /*  background-image: url(../images/clouds.jpg); /*   The image used */
+  background-color: #F1FAEE; /* Used if the image is unavailable */
+   /* height: 500px; You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}

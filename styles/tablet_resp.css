@@ -1,0 +1,671 @@
+
+/******************************************************************NAVBAR-START*************************************************************/
+
+@media only screen and (min-width: 600px) {
+    html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, nav, section, header, ul, ol {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        /*font-size: 100%; */
+        font-size: small;
+        vertical-align: center;
+        scroll-behavior: smooth;
+     }
+     
+     body{
+         font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+     }
+     
+     
+     * {
+         box-sizing: border-box;
+       }
+
+       header {
+        background-position: center right;
+       }
+
+
+
+
+       .navbar {
+        overflow: hidden;
+        width: 100%;
+        text-align: center;
+        z-index: 9999;
+                /* Make Transparent? */
+        /*  opacity: 50%;  */
+        position: fixed;
+        top: 0;
+        transition: all 0.5s;
+    }
+    
+    .navbar.navscroll {
+        overflow: auto;
+        width: 100%;
+        text-align: center;
+        z-index: 9999;
+        background-color: black;   
+        position: fixed;
+        top: 0;
+        transition: all 0.5s;
+    }
+    
+    .navbar a:hover, .navbar a:active{
+        color: gold;
+    }
+    
+    
+    
+    
+    
+    .navbar ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    
+    
+        /* background-color: blue;    use for debugging if needed */
+    }
+    
+    .navbar ul li{
+        display: inline-block;
+    
+    /*    border-width: 1px;
+        border: black;
+        border-style: solid;
+         padding: 0.75% 10%
+    */
+    }
+    
+    .navbar a {
+        text-decoration: none;
+        font-size: 3vw;
+        padding: 0 2vw;
+        color: white;                                 /* Add hover over highlight */
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /******************************************************************NAVBAR-END*************************************************************/
+    
+    
+    /******************************************************************HEADER/HOME-START***********************************************************/
+    .HOME-text {
+        position: relative;
+        text-align: center;
+        color: white; 
+        /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  */
+        background-color:white; 
+    
+    
+    }
+    
+    .HOME-text h1 {
+        position:absolute;
+        left: 15vw;
+        top: 30vh;
+        font-size: 10vw;
+        /* width: 100vh; */
+     
+    }
+    
+    .HOME-text h2 {
+        position:absolute;
+        left: 10vw;
+        top: 41vh;
+        font-size: 4vw;
+        /* width: 100vh; */
+     
+    }
+    
+    .HOME-text a:link, .HOME-text a:visited {
+        color: white;
+    }
+    
+    .HOME-text a:hover, .HOME-text a:active {
+        color: black;
+    }
+    
+    
+    .HOME-text ul {
+        position:absolute;
+        left: 29vw;
+        top: 44vh;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    
+    }
+    
+    .HOME-text ul li {
+        margin: 1vh 1vw;
+    }
+    
+    .HOME-text ul li i {
+        font-size: 10vw;
+    }
+    
+    /******************************************************************HEADER/HOME-END***********************************************************/
+    
+    
+    
+    
+    
+    
+    
+    
+    /******************************************************************ABOUT-START***********************************************************/
+    #ABOUT {
+    
+        overflow-x:hidden;
+        color: white;
+    }
+    
+    #ABOUT h1 {
+    
+        position: relative;
+        text-align: center;
+        top: 5vh;
+        font-size: 5vw;
+        color: black;
+    }
+    
+    #ABOUT .DP-image {
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+        position: relative;
+        top:10vh;
+    
+    }
+    
+    #ABOUT .DP img {
+        max-width: 50vw;
+        border-radius: 50%;
+    }
+    
+    
+    #ABOUT .DP-link {
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+        position: relative;
+        top:11vh;
+    
+    
+    }
+    
+    #ABOUT .DP a {
+        text-decoration: none;
+        color: grey;
+        font-size: 2.5vw;
+    }
+    
+    #ABOUT .DP a:hover, #ABOUT .DP a:active {
+        color: white;
+    }
+    
+    
+    
+    
+    
+    #ABOUT .DES h2 {
+    
+        position: relative;
+        text-align: center;
+        top: 15vh;
+        font-size: 4vw;
+        color: black;
+    }
+    
+    #ABOUT .DES-text {
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+    }
+    
+    #ABOUT .DES p {
+        position: relative;
+        text-align: justify;
+        color: black;
+        width: 90%;
+        font-size: 3vw;
+        top: 17vh;
+    }
+    
+    #ABOUT .DES a {
+    
+        text-decoration: none;
+        color: grey;
+        font-size: inherit;
+    }
+    
+    #ABOUT .DES a:hover, #ABOUT .DES a:active {
+        color: white;
+    }
+    
+    /******************************************************************ABOUT-END***********************************************************/
+    
+    
+    
+    
+    
+    /******************************************************************PROJECTS-START***********************************************************/
+    
+    #PROJECTS {
+        position: relative;
+        overflow-x:hidden;
+        height: 250vh;
+    }
+    
+    
+    #PROJECTS h1 {
+        position: relative;
+        text-align: center;
+        top: 4vh;
+        font-size: 5vw;
+    }
+    
+    #PROJECTS h3 {
+        position: relative;
+        text-align: center;
+        top: 3%;
+        font-size: 3vw;;
+    }
+    
+    
+    #PROJECTS .PROJECTS-GRID {
+        position: relative;
+        display: grid;
+    
+        /* background-color: black; */
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-gap: 4% 4%;
+        /* border: 10px solid blue; */
+        top: 75vh;
+        left: 5vw;
+        width: 90vw;
+        height: 80vh;
+        justify-content: space-around;  
+        align-content: space-evenly; 
+        
+    
+    }
+    
+    .projects {
+        background-color: #eee;
+        position: relative;
+    
+    
+        width: auto;
+        height: auto;
+        
+    }
+    
+    #PROJECTS .projects img {
+        width: 80%;
+        height: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 10%;
+    
+    }
+    
+    #PROJECTS .ocontainer {
+        position: relative;
+    }
+    
+    #PROJECTS .projects .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #008CBA;
+    }
+    
+    #PROJECTS .otext{
+        color: white;
+        font-size: 5vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+    
+    #PROJECTS .projects:hover .overlay, #PROJECTS .projects:active .overlay {
+        opacity: 1;
+      }
+    
+    
+    
+    
+    
+    #PROJECTS .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+    
+    
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+      }
+      
+      /* Modal Content */
+    #PROJECTS .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        padding:0%;
+    
+        /* border: 1px solid #888; */
+        height: 40%;
+        width: 95%;
+        overflow: auto;
+    
+      }
+    
+    #PROJECTS .modal-content img {
+        margin: auto;
+        display: block;
+        position: relative;
+    }
+    
+    
+    
+    #PROJECTS .modal-content ul {
+        width: 100%;
+        color:black;
+        padding: 1%;
+        padding-left: 4%;
+        margin: 0;
+        text-align: left;
+        font-size: 2vh;
+    }
+
+    #PROJECTS .modal-content li {
+        list-style-type: circle;
+    }
+
+    #PROJECTS .modal-content li a{
+        font-size: 2vh;
+        color: grey;
+    }
+    
+    #PROJECTS .modal-content h2 {
+        font-size: 3vh;
+        margin: 0%;
+        padding: 1%;
+        color:black;
+    }   
+    
+    #PROJECTS .modal-content .close {
+        display: none;
+        color: #aaaaaa;
+        position: relative;
+        bottom: 38vh;
+        float: right;
+    
+        font-size: 5vh;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    
+    #PROJECTS .pics{
+        background-color: silver;
+        width:100%; 
+        height:70%;
+    
+    
+    }
+    
+    
+    #PROJECTS #only1 .modal-content img {
+        width:50%; 
+        top: 4%;
+    }
+    
+    #PROJECTS #poster .modal-content img {
+        width: 60%;
+        top: 8%;
+    }
+    
+    #PROJECTS #ts .modal-content img {
+        width:60%; 
+        top: 7%;
+    }
+    
+    #PROJECTS #ga .modal-content img {
+        width:48%; 
+        top: 3%;
+    }
+    
+    #PROJECTS #reach .modal-content img {
+        width:48%; 
+        top: 4%;
+    }
+    
+    #PROJECTS #flight .modal-content img {
+        width:70%; 
+        top: 7%;
+    }
+    
+    
+    
+    /******************************************************************PROJECTS-END***********************************************************/
+    
+    
+    
+    
+    
+    
+    
+    
+    /******************************************************************ACTIVITIES-START***********************************************************/
+    #ACTIVITIES {
+        position: relative;
+        overflow-x:hidden;
+        height: 160vh;
+    }
+    
+    #ACTIVITIES h1 {
+        padding: 0%;
+        text-align: center;
+        /* background: white;
+        padding: 1.2%; */
+        font-size: 5vw;
+        position: relative;
+        top: 5vh;
+    }
+    
+    #ACTIVITIES .header h3 {
+        padding: 0;
+        margin: 0;
+    
+        text-align: center;
+        position: relative;
+        top: 6vh;
+        font-size: 4vw;
+    }
+    
+    #ACTIVITIES h2 {
+        text-align: center;
+        font-size: 4vw;
+        position: relative;
+        top: 9vh;
+        padding: 1%;
+    }
+    
+    #ACTIVITIES .content .hlink a {
+        font-size: 4vw;
+    }
+    
+    #ACTIVITIES h3 {
+        font-size: 3vw;
+        text-align: center;
+        padding-top: 0.5%;
+        padding-bottom: 2%;
+        position: relative;
+        top:8.5vh;
+    }
+    
+    
+    #ACTIVITIES .col ul {
+        font-size: 3vw;
+        padding-top: 1%;
+        padding-bottom: 1.5%;
+        position: relative;
+        top:8vh;
+        text-align: center;
+    }
+    
+    #ACTIVITIES .col a {
+        font-size: 3vw;
+        text-decoration: none;
+        color: #a3a3a3;
+        /* font-style: italic; */
+    }
+    
+    #ACTIVITIES  a:hover, #ACTIVITIES  a:active {
+        color: black;
+    }
+    
+    
+    #ACTIVITIES ul {
+        list-style-type: none;
+    
+    }
+    
+    #ACTIVITIES .footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #E63946;
+        height: 35%;
+        color: white;
+    }
+    
+    #ACTIVITIES .lastfooter {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        z-index: 2;
+        font-size: 2vw;
+    }
+    
+    #ACTIVITIES .footer a {
+        color: white;
+        font-size: 2vw;
+        
+    }
+    
+    #ACTIVITIES h4, #ACTIVITIES h5, #ACTIVITIES .footer ul {
+        text-align: center;
+    }
+    
+    #ACTIVITIES h4 {
+        padding-bottom: 2%;
+        padding-top: 2%;
+        font-size: 4.5vw;
+    }
+    
+    #ACTIVITIES h5 {
+        font-size: 3.5vw;
+    }
+    
+    #ACTIVITIES .footer ul {
+        padding-bottom: 2%;
+    }
+    
+    #ACTIVITIES [class^="fas"], [class*="fa"] {
+        display: inline-block;
+        width: 100%;
+        padding: 1vh;
+        font-size: 6vw;
+        text-align: center;
+    }
+    
+    #ACTIVITIES .footer li {
+        list-style-type: none;
+        font-size: 2vw;
+    }
+    
+    #ACTIVITIES .footer #callfoot h5 {
+        padding-bottom: 1%;
+    }
+    
+    #ACTIVITIES .footer #callfoot ul {
+        padding-top: 2%;
+    }
+    
+    
+    /******************************************************************ACTIVITIES-END***********************************************************/
+
+}
+/*
+ Check out google resources for font and stuff
+ Check font pairings lesson
+ Align stuff is annoying
+ Transparent Hover Effect could be useful somewhere
+ Dropdown menu in nav bar?
+ Forms for feedback?
+ CSS Multiple Backgrounds could be useful
+ Might need hero image for title page
+ Transitions may be needed
+ Tooltips could be neat
+ Image Hover Overlay "
+ Stuff on buttons if needed
+ Responsive website stuff
+ RWD: Band & architect templates could be starting points
+ */
