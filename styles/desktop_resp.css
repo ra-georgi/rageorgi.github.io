@@ -1,0 +1,728 @@
+
+/******************************************************************NAVBAR-START*************************************************************/
+
+@media only screen and (min-width: 1024px) {
+    html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, nav, section, header, ul, ol {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        /*font-size: 100%; */
+        font-size: small;
+        vertical-align: center;
+        scroll-behavior: smooth;
+     }
+     
+     body{
+         font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+     }
+     
+     
+     * {
+         box-sizing: border-box;
+       }
+
+       header {
+        background-position: unset;
+       }
+
+
+
+        .navbar {
+            overflow: hidden;
+            width: 100%;
+            text-align: center;
+            z-index: 9999;
+                    /* Make Transparent? */
+            /*  opacity: 50%;  */
+            position: fixed;
+            top: 0;
+            transition: all 0.5s;
+        }
+
+        .navbar.navscroll {
+            overflow: auto;
+            width: 100%;
+            text-align: center;
+            z-index: 9999;
+            background-color: black;   
+            position: fixed;
+            top: 0;
+            transition: all 0.5s;
+        }
+
+        .navbar a:hover{
+            color: gold;
+        }
+
+        .navbar a.active {
+            color: red;
+        }
+
+
+
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-left: 25%;
+            margin-right: 25%;
+            padding: 0.5% 0;
+
+            /* background-color: blue;    use for debugging if needed */
+        }
+
+        .navbar ul li{
+            display: inline-block;
+            padding: 0%;
+
+        /*    border-width: 1px;
+            border: black;
+            border-style: solid;
+            padding: 0.75% 10%
+        */
+        }
+
+        .navbar a {
+            text-decoration: none;
+            font-size: 0.9vw;
+            padding: 0;
+            color: white;                 /* Add hover over highlight */
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /******************************************************************NAVBAR-END*************************************************************/
+
+
+        /******************************************************************HEADER/HOME-START***********************************************************/
+        .HOME-text {
+            position: relative;
+            text-align: center;
+            color: white;   
+            /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  */
+            background-color:white; 
+
+
+        }
+
+        .HOME-text h1 {
+            position:absolute;
+            left: 50vw;
+            top: 28vh;
+            font-size: 5vw;
+            /* width: 100vh; */
+        
+        }
+
+        .HOME-text h2 {
+            position:absolute;
+            left: 48vw;
+            top: 42vh;
+            font-size: 2vw;
+            /* width: 100vh; */
+        
+        }
+
+        .HOME-text a:link, .HOME-text a:visited {
+            color: white;
+        }
+
+        .HOME-text a:hover {
+            color: black;
+        }
+
+
+        .HOME-text ul {
+            position:absolute;
+            left: 58vw;
+            top: 47vh;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+        }
+
+        .HOME-text ul li {
+            margin: 1vh 1vw;
+        }
+
+        .HOME-text ul li i {
+            font-size: 3vw;
+        }
+
+        /******************************************************************HEADER/HOME-END***********************************************************/
+
+
+
+
+
+
+
+
+        /******************************************************************ABOUT-START***********************************************************/
+        #ABOUT {
+
+            overflow-x:hidden;
+            color: white;
+        }
+
+        #ABOUT h1 {
+
+            position: relative;
+            text-align: center;
+            top: 5vh;
+            font-size: 3vw;
+            color: black;
+        }
+
+        #ABOUT .descrip{
+            background-color: black;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 100%;
+            grid-template-areas: "DP DES";
+            height:60%;
+            width:75%;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            top:10%
+          
+
+        }
+
+        #ABOUT .DES h2 {
+            position: relative;
+            text-align: unset;
+            left: unset;
+            top: 7vh;
+            font-size: 2vw;
+            color: white;
+        }
+
+        #ABOUT .DES-text {
+            display: unset; 
+            align-items: unset; 
+            justify-content: unset;
+        }
+
+        #ABOUT .DES p {
+            position: relative;
+            text-align: justify;
+            width: 90%;
+            top: 9vh;
+            font-size: 1.4vw;
+            color: white;
+        }
+
+        #ABOUT .DES a {
+
+            text-decoration: none;
+            color: grey;
+            font-size: inherit;
+        }
+        
+        #ABOUT .DES a:hover {
+            color: white;
+        }
+
+        #ABOUT .DP-image {
+            display: unset; 
+            align-items: unset; 
+            justify-content: unset;
+            top:unset;
+        
+        }
+
+
+
+        #ABOUT .DP img {
+            max-width: 20vw;
+            height: auto;
+            position: relative;
+            border-radius: 50%;
+            top: 8vh;
+            left: 8vw;
+        }
+
+        #ABOUT .DP-link {
+            align-items: unset; 
+            justify-content: unset;
+            position: unset;
+        }
+
+        #ABOUT .DP a {
+            position: relative;
+            top: 9vh;
+            left: 15vw;
+            text-decoration: none;
+            color: grey;
+            font-size: inherit;
+        }
+
+        #ABOUT .DP a:hover{
+            color: white;
+        }
+
+
+
+
+
+        /******************************************************************ABOUT-END***********************************************************/
+
+
+
+
+
+        /******************************************************************PROJECTS-START***********************************************************/
+
+        #PROJECTS {
+            position: relative;
+            overflow-x:hidden;
+            height: 100vh;
+
+        }
+
+
+        #PROJECTS .PROJECTS-GRID {
+            position: absolute;
+            display: grid;
+
+            /* background-color: black; */
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-gap: 4% 4%;
+            /* border: 10px solid blue; */
+            top: 20vh;
+            left: 5vw;
+            width: 90vw;
+            height: 80vh;
+            justify-content: space-around;  
+            align-content: space-evenly; 
+
+        }
+
+        .projects {
+            background-color: #eee;
+            position: relative;
+            display: unset; 
+            align-items: unset; 
+            justify-content: unset;
+            padding: 0;
+            margin: 0;
+            width: unset;
+            height: unset;
+            
+        }
+
+        #PROJECTS .projects img {
+            width: 75%;
+            height: 75%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: 10%;
+
+        }
+
+        #PROJECTS .ocontainer {
+            position: relative;
+        }
+
+        #PROJECTS .projects .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: #008CBA;
+        }
+
+        #PROJECTS .otext{
+            color: white;
+            font-size: 2vw;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+        }
+
+        #PROJECTS .projects:hover .overlay {
+            opacity: 1;
+          }
+
+
+        #PROJECTS h1 {
+            position: relative;
+            text-align: left;
+            top: 4vh;
+            font-size: 3vw;
+            left:5%;
+        }
+
+        #PROJECTS h3 {
+            position: relative;
+            text-align: unset;
+            top: 5%;
+            left:5%;
+            font-size: 1vw;;
+        }
+
+
+
+
+        #PROJECTS .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+          }
+          
+          /* Modal Content */
+        #PROJECTS .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid #888;
+            padding:0%;
+
+            /* border: 1px solid #888; */
+            height: 80%;
+            width: 60%;
+            overflow: auto;
+          }
+
+
+        
+        #PROJECTS .modal-content img {
+            margin: auto;
+            display: block;
+            position: relative;
+        }
+        
+        #PROJECTS .modal-content ul {
+            width: 100%;
+            color:black;
+            padding: 1%;
+            padding-left: 3%;
+            margin: 0;
+            text-align: left;
+            font-size: 2vh;
+        }
+
+        #PROJECTS .modal-content li {
+            list-style-type: circle;
+        }
+
+        #PROJECTS .modal-content li a{
+            font-size: 2vh;
+            color: grey;
+        }
+
+        #PROJECTS .modal-content h2 {
+            font-size: 3vh;
+            margin: 0%;
+            padding: 1%;
+            color:black;
+        }   
+
+        #PROJECTS .modal-content .close {
+            display: unset;
+            color: #aaaaaa;
+            position: relative;
+            bottom: 75vh;
+
+            float: right;
+
+ 
+
+            font-size: 5vh;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+
+        #PROJECTS .pics{
+            background-color: silver;
+            width:100%; 
+            height:75%;
+
+        }
+
+        #PROJECTS #only1 .modal-content img {
+            width:60%; 
+            top: 6%;
+        }
+
+        #PROJECTS #poster .modal-content img {
+            width: 75%;
+            top: 6%;
+        }
+
+        #PROJECTS #ts .modal-content img {
+            width:75%; 
+            top: 8%;
+        }
+
+        #PROJECTS #ga .modal-content img {
+            width:60%; 
+            top: 4%;
+        }
+
+        #PROJECTS #reach .modal-content img {
+            width:60%; 
+            top: 4%;
+        }
+
+        #PROJECTS #flight .modal-content img {
+            width:60%; 
+            top: 3%;
+        }
+
+
+
+
+
+
+        /******************************************************************PROJECTS-END***********************************************************/
+
+
+
+
+
+
+
+
+        /******************************************************************ACTIVITIES-START***********************************************************/
+        #ACTIVITIES {
+            position: relative;
+            overflow-x:hidden;
+            height: 100vh;
+        }
+
+        #ACTIVITIES h1 {
+            /*padding: 1.2%;*/
+            /* background: white;
+            padding: 1.2%; */
+            padding: 0%;
+            position: relative;
+            text-align: left;
+            top: 5vh;
+            font-size: 3vw;
+            left:5%;
+        }
+
+        #ACTIVITIES .header h3 {
+            position: absolute;
+            padding: 0;
+            margin: 0;
+            left:5%;
+            top:13%;
+            text-align: left;
+            font-size: 1vw;
+        }
+
+        
+        #ACTIVITIES h2 {
+            text-align: center;
+            font-size: 2vw;
+            position: unset;
+            top: unset;
+            padding: unset;
+        }
+
+        #ACTIVITIES h3 {
+            font-size: 1vw;
+            text-align: center;
+            padding: 0.5%;
+            position: unset;
+            top: unset;
+        }
+
+        #ACTIVITIES .content .hlink a {
+            font-size: 2vw;
+        }
+
+        #ACTIVITIES .content {
+            position: relative;
+            top:5%;
+            left: 1%;
+        }
+
+        #ACTIVITIES .col ul {
+            font-size: 1vw;
+            padding: 1%;
+            position: unset;
+            top: unset;
+            text-align: center;
+        }
+
+
+        #ACTIVITIES .col a {
+            font-size: 1vw;
+            text-decoration: none;
+            color: #a3a3a3;
+            /* font-style: italic; */
+        }
+
+        #ACTIVITIES  a:hover {
+            color: black;
+        }
+
+
+
+        #ACTIVITIES .col {
+            float: left;
+            width: 50%;
+            padding: 3% 1.5%;    
+        }
+
+
+
+        /* #ACTIVITIES .colcontent {
+            outline: black;
+            outline-offset: 50%;
+
+        } */
+
+        #ACTIVITIES ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+
+        #ACTIVITIES .footer {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #E63946;
+            height: 25vh;
+            color: white;
+        }
+
+        #ACTIVITIES .lastfooter {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+            z-index: 2;
+            font-size: unset;
+        }
+
+        #ACTIVITIES .footer a {
+            color: white;
+            font-size: unset;
+            
+        }
+
+        #ACTIVITIES h4, #ACTIVITIES h5, #ACTIVITIES .footer ul {
+            text-align: center;
+        }
+
+        #ACTIVITIES h5 {
+            font-size: unset;
+        }
+
+        #ACTIVITIES h4 {
+            padding-bottom: 2vh;
+            padding-top: 1vh;
+            font-size: 2vh;
+            font-size: unset;
+        }
+
+        #ACTIVITIES .footer ul {
+            padding: unset;
+        }
+
+
+        #ACTIVITIES .col2 {
+            float: left;
+            width: 33.33% ;
+        }
+
+
+        #ACTIVITIES [class^="fas"], [class*="fa"] {
+            display: inline-block;
+            width: 100%;
+            padding: 1vh;
+            font-size: 3vw;
+            text-align: center;
+        }
+
+        #ACTIVITIES .footer li {
+            list-style-type: none;
+            font-size: unset;
+            padding: unset;
+        }
+
+
+        #ACTIVITIES .footer #callfoot h5 {
+            padding-bottom: unset;
+        }
+        
+        #ACTIVITIES .footer #callfoot ul {
+            padding-top: unset;
+        }
+
+
+    }
+/******************************************************************ACTIVITIES-END***********************************************************/
+
+/*
+ Check out google resources for font and stuff
+ Check font pairings lesson
+ Align stuff is annoying
+ Transparent Hover Effect could be useful somewhere
+ Dropdown menu in nav bar?
+ Forms for feedback?
+ CSS Multiple Backgrounds could be useful
+ Might need hero image for title page
+ Transitions may be needed
+ Tooltips could be neat
+ Image Hover Overlay "
+ Stuff on buttons if needed
+ Responsive website stuff
+ RWD: Band & architect templates could be starting points
+ */
